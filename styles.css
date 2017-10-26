@@ -137,6 +137,11 @@ iframe.frontimage{
     margin:10px;
 }
 
+iframe{
+    
+   width:80%;
+}
+
 p {
     margin:10px;
 }
