@@ -15,7 +15,7 @@ p {
 
 div.format {
     background-color: lightgray;
-    width: 800px;
+    width: 50%;
     margin: auto;
     border-bottom: 3px solid dimgray;
     border-right: 3px solid dimgray;
@@ -117,7 +117,7 @@ div.gallery {
 
 div.frontpage {
     background-color: lightgray;
-    width: 800px;
+    width: 50%;
     margin: auto;
     border-bottom: 3px solid dimgray;
     border-right: 3px solid dimgray;
