@@ -1,0 +1,149 @@
+h1 {
+    color: black;
+}
+
+body {
+    background-color: #2CACE7;
+}
+
+p {
+    color: black;
+    margin: 10%;
+    margin-left:10%;
+     font-family: sans-serif; 
+}
+
+div.format {
+    background-color: lightgray;
+    width: 800px;
+    margin: auto;
+    border-bottom: 3px solid dimgray;
+    border-right: 3px solid dimgray;
+    border-left: 3px solid dimgray;
+    border-top: 3px solid dimgray;
+    text-align: center;
+    font: verdana; 
+    float:center;
+}
+
+a:link, a:visited {
+    color: darkslategray;
+}
+
+a:hover {
+    color:slategray;
+}
+
+div.margin-left {
+    
+    float:left;
+    width: 20%;
+    margin:1.5%
+}
+
+div.margin-right {
+    
+    float:right;
+    width: 20%;
+    margin:1.5%
+}
+
+/* top menu*/
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: skyblue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div.gallery {
+    display:inline-block;
+
+}
+
+
+div.frontpage {
+    background-color: lightgray;
+    width: 800px;
+    margin: auto;
+    border-bottom: 3px solid dimgray;
+    border-right: 3px solid dimgray;
+    border-left: 3px solid dimgray;
+    border-top: 3px solid dimgray;
+    text-align: center;
+    float:center;
+    column-count: 2;
+   
+}
+
+img.banner{
+    margin: -1.85px;
+}
+
+iframe.frontimage{
+    margin:10px;
+}
+
+p {
+    margin:10px;
+}
+
+img{
+    margin:10px;
+}
+
+
+?
