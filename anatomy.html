@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Test</title> 
+<link rel="stylesheet" href="styles/styles2.css">
+<script type="text/javascript">
+  var imageURLs = [
+       "https://i.pinimg.com/originals/30/6d/c7/306dc7a03fcbe3bc7d8d9d15ffa3006a.jpg"
+     , "https://i.pinimg.com/originals/30/6d/c7/306dc7a03fcbe3bc7d8d9d15ffa3006a.jpg"
+     , "https://i.pinimg.com/originals/30/6d/c7/306dc7a03fcbe3bc7d8d9d15ffa3006a.jpg"
+     , "http://www.myserver.com/images/image3.png"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"66 72 65 65 64 6f 6d\"/>';
+    return img;
+  }
+</script>
+</head>
+        <!--top menu-->
+      <div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="communication.html">Communication</a>
+  <a href="life.html">Life Cycles</a>
+  <a href="hierarchy.html">Hierarchy</a>
+  <a href="ritual.html">Rituals</a>
+  <a href="intellect.html">Inellect</a>
+  <a href="anatomy.html">Anatomy</a>
+  <a href="history.html">history</a>
+  <a href="geography.html">geography</a>
+  <a href="future.html">future</a>
+       
+</div>
+<body>
+    <div class="format">
+    <h1>Anatomy</h1>
+    <p>Giraffes anatomy is similar to other birds there size, prioritizing a low weight, and maximum wingspan. They have many specialized organs to help facilitate this,
+        such as the 6 gas sacks hidden in their abdomens, which serve both as a source of bouyancy and as a self defence mechanism, as they explode violently when the giraffe is
+        threathened. other adaptations include hollow bones long necks, for improved aerodynamics.</p>
+    </div>
+    <br>
+    <div class="format">
+<script type="text/javascript">
+  document.write(getImageTag());
+</script>
+        </div>
+</body>
+</html>

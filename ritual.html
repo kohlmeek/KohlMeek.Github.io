@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Test</title> 
+<link rel="stylesheet" href="styles/styles2.css">
+<script type="text/javascript">
+  var imageURLs = [
+       "https://upload.wikimedia.org/wikipedia/commons/a/a4/Rothchlid_giraffe_patterns_would_depict_our_african_fashion_culture_so_well.JPG"
+     , "https://upload.wikimedia.org/wikipedia/commons/a/a4/Rothchlid_giraffe_patterns_would_depict_our_african_fashion_culture_so_well.JPG"
+     , "https://upload.wikimedia.org/wikipedia/commons/a/a4/Rothchlid_giraffe_patterns_would_depict_our_african_fashion_culture_so_well.JPG"
+     , "http://www.myserver.com/images/image3.png"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"6c 6f 6f 70 73 20 74 68 61 74 20 62 69 6e 64\"/>';
+    return img;
+  }
+</script>
+</head>
+        <!--top menu-->
+     <div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="communication.html">Communication</a>
+  <a href="life.html">Life Cycles</a>
+  <a href="hierarchy.html">Hierarchy</a>
+  <a href="ritual.html">Rituals</a>
+  <a href="intellect.html">Inellect</a>
+  <a href="anatomy.html">Anatomy</a>
+  <a href="history.html">history</a>
+  <a href="geography.html">geography</a>
+  <a href="future.html">future</a>
+       
+</div>
+<body>
+    <div class="format">
+    <h1>Rituals </h1>
+    <p>Giraffes have a number of odd rituals and celebrations, but many share common themes of great remorse and autocannibalism.
+        In many cases these rituals continue until at least one participant has died, or collaped in grief. Not participating is seen as a 
+        social fopah worthy of death. However, executions too follow these rules. This has lead to several notable examples in which executions have chained together
+        for a number of months </p>
+        
+    </div>
+    <br>
+    <div class="format">
+<script type="text/javascript">
+  document.write(getImageTag());
+</script>
+        </div>
+</body>
+</html>

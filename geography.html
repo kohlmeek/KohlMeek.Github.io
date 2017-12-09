@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Test</title> 
+<link rel="stylesheet" href="styles/styles2.css">
+<script type="text/javascript">
+  var imageURLs = [
+       "http://www.worldatlas.com/aatlas/infopage/arabsea.gif"
+     , "http://www.worldatlas.com/aatlas/infopage/arabsea.gif"
+     , "http://www.worldatlas.com/aatlas/infopage/arabsea.gif"
+     , "http://www.myserver.com/images/image3.png"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"33 37 2e 33 38 36 31 20 20 31 32 32 2e 30 38 33 39 20 0d 0a 0d 0a\"/>';
+    return img;
+  }
+</script>
+</head>
+        <!--top menu-->
+      <div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="communication.html">Communication</a>
+  <a href="life.html">Life Cycles</a>
+  <a href="hierarchy.html">Hierarchy</a>
+  <a href="ritual.html">Rituals</a>
+  <a href="intellect.html">Inellect</a>
+  <a href="anatomy.html">Anatomy</a>
+  <a href="history.html">history</a>
+  <a href="geography.html">geography</a>
+  <a href="future.html">future</a>
+       
+</div>
+<body>
+    <div class="format">
+    <h1>Geography</h1>
+    <p>There was a time when Giraffes lived on every continent except Antartica, and in several small lunar colonies, but do to global (and lunar) warming,
+        and over fishing giraffes have been reduced to only living in small sections of the arabian sea. </p>
+    </div>
+    <br>
+    <div class="format">
+<script type="text/javascript">
+  document.write(getImageTag());
+</script>
+        </div>
+</body>
+</html>

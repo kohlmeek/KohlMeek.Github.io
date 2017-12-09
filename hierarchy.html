@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Test</title> 
+<link rel="stylesheet" href="styles/styles2.css">
+<script type="text/javascript">
+  var imageURLs = [
+       "https://thumbs-prod.si-cdn.com/n00IP_UX9QnS8k1NMg_DQXpGfDM=/fit-in/1072x0/https://public-media.smithsonianmag.com/filer/57/13/57136a33-0840-47cd-ad2d-ec06fab6dbd1/mar2017_a16_giraffes.jpg"
+     , "https://thumbs-prod.si-cdn.com/n00IP_UX9QnS8k1NMg_DQXpGfDM=/fit-in/1072x0/https://public-media.smithsonianmag.com/filer/57/13/57136a33-0840-47cd-ad2d-ec06fab6dbd1/mar2017_a16_giraffes.jpg"
+     , "https://thumbs-prod.si-cdn.com/n00IP_UX9QnS8k1NMg_DQXpGfDM=/fit-in/1072x0/https://public-media.smithsonianmag.com/filer/57/13/57136a33-0840-47cd-ad2d-ec06fab6dbd1/mar2017_a16_giraffes.jpg"
+     , "http://www.myserver.com/images/image3.png"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"43 6f 6c 6c 65 63 74 2e 20 53 74 6f 72 65 2e 20 54 72 61 6e 73 66 6f 72 6d 2e 20 41 67 67 72 65 67 61 74 65 2e 20 4f 70 74 69 6d 69 7a 65 2e 20 55 6e 64 65 72 73 74 61 6e 64 2e 2e 2e 2e\"/>';
+    return img;
+  }
+</script>
+</head>
+        <!--top menu-->
+      <div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="communication.html">Communication</a>
+  <a href="life.html">Life Cycles</a>
+  <a href="hierarchy.html">Hierarchy</a>
+  <a href="ritual.html">Rituals</a>
+  <a href="intellect.html">Inellect</a>
+  <a href="anatomy.html">Anatomy</a>
+  <a href="history.html">history</a>
+  <a href="geography.html">geography</a>
+  <a href="future.html">future</a>
+       
+</div>
+<body>
+    <div class="format">
+    <h1>Hierarchy</h1>
+    <p>Though one might assume otherwise, giraffes have a very elaborate and complicated social structure. It is quite similar to many species of eusocial insects
+        like cod or humming birds. At the top is the queen. She is the largest ad most physically emposing than the rest of her pod. She is easily recognizable by her 
+        enlarged mouth tendrils, which are often used in intimidation displays. Below the queen are her court, a small group of giraffes, whom own large plots of lands 
+        and in many cases small serfdoms. They provide company and in some cases advice to the queen. Finally below the court are the plebian hordes, rarely seen as they 
+        rarely leave the subteranean salt mines they work. It is said that if ever a plebian gains enough salt she may be elevated to a court member. </p>
+    </div>
+    <br>
+<div class="format">
+<script type="text/javascript">
+  document.write(getImageTag());
+</script>
+        </div>
+</body>
+</html>

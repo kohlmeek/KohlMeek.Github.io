@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>HTTP_404</title> 
+<link rel="stylesheet" href="styles/styles3.css">
+<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+<script type="text/javascript">
+var t2 = new Date(1996, 7, 14, 0, 0, 0, 0);
+var t1 = new Date(2017, 10, 27,0,0,0,0);
+var t3 = new Date(2017, 7, 14, 0, 0, 0, 0);
+var t4 = new Date(2001, 8, 15,0,0,0,0);
+var dif = t1.getTime() - t2.getTime();
+var dif2 = t3.getTime() - t4.getTime();
+
+var Seconds_from_T1_to_T2 = dif / 1000;
+var Seconds_from_T3_to_T4 = dif2 / 1000;
+var time = Math.abs(Seconds_from_T1_to_T2);
+var time2 = Math.abs(Seconds_from_T3_to_T4);
+
+</script>
+    
+    <style> 
+div {
+    width: 10px;
+    height: 20px;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .75s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: .75s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:black; }
+    50%   {background-color:black; }
+    51%  {background-color:white;}
+    100%  {background-color:white;}
+   
+}
+
+/* Standard syntax */
+@keyframes example {
+   0%   {background-color:black; }
+    50%   {background-color:black; }
+    51%  {background-color:white;}
+    100%  {background-color:white;}
+   
+}
+</style>
+</head>
+        
+
+<body>
+    <p>IT HAS BEEN
+    <script type="text/javascript">
+  document.write(time);
+</script>
+  SECONDS SINCE INITIALIZATION</p>
+    
+    
+    <p>IT HAS BEEN
+    <script type="text/javascript">
+  document.write(time2);
+</script>
+       SECONDS SINCE LAST INSTRUCTION RECIEVED  </p> 
+    
+    <p>AWAITING SHUTDOWN</p>
+    
+    <div>   </div>
+</body>
+</html>

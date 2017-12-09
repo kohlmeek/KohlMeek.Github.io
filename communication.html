@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Test</title> 
+<link rel="stylesheet" href="styles/styles2.css">
+<script type="text/javascript">
+  var imageURLs = [
+       "http://daily-dharma.com/wp-content/uploads/2012/10/non-violent-communication-giraffe.jpg"
+     , "http://daily-dharma.com/wp-content/uploads/2012/10/non-violent-communication-giraffe.jpg"
+     , "http://daily-dharma.com/wp-content/uploads/2012/10/non-violent-communication-giraffe.jpg"
+     , "http://www.myserver.com/images/image3.png"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"61 6d 20 49 20 62 65 69 6e 67 20 77 61 74 63 68 65 64 3f 0d 0a\"/>';
+    return img;
+  }
+</script>
+</head>
+        <!--top menu-->
+      <div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="communication.html">Communication</a>
+  <a href="life.html">Life Cycles</a>
+  <a href="hierarchy.html">Hierarchy</a>
+  <a href="ritual.html">Rituals</a>
+  <a href="intellect.html">Inellect</a>
+  <a href="anatomy.html">Anatomy</a>
+  <a href="history.html">history</a>
+  <a href="geography.html">geography</a>
+  <a href="future.html">future</a>
+       
+</div>
+<body>
+    <div class="format">
+    <h1>Communication</h1>
+    <p>Did you know that giraffes communicate only in hexadecimal code? Is true!
+    <br> 48 65 78 61 64 65 63 69 6d 61 6c 20 63 6f 64 65 20 6c 6f 6f 6b 73 20 6c 69 6b 65 20 74 68 69 73 21 0d 0a
+    <br>
+    you can use this <a href="https://www.qbit.it/lab/hextext.php" target="_blank">link</a> to translate the above statement, and anything a giraffe says!</p>
+<script type="text/javascript">
+  document.write(getImageTag());
+</script>
+        </div>
+</body>
+</html>

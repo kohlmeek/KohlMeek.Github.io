@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>life cycles</title> 
+<link rel="stylesheet" href="styles/styles2.css">
+<script type="text/javascript">
+  var imageURLs = [
+       "http://trendible.net/wp-content/uploads/2016/12/Baby-giraffe.jpg"
+     , "http://trendible.net/wp-content/uploads/2016/12/Baby-giraffe.jpg"
+     , "http://trendible.net/wp-content/uploads/2016/12/Baby-giraffe.jpg"
+     , "http://www.myserver.com/images/image3.png"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"61 6d 20 49 20 62 65 69 6e 67 20 77 61 74 63 68 65 64 3f 0d 0a\"/>';
+    return img;
+  }
+</script>
+</head>
+        <!--top menu-->
+     <div class="navbar">
+  <a href="home.html">Home</a>
+  <a href="communication.html">Communication</a>
+  <a href="life.html">Life Cycles</a>
+  <a href="hierarchy.html">Hierarchy</a>
+  <a href="ritual.html">Rituals</a>
+  <a href="intellect.html">Inellect</a>
+  <a href="anatomy.html">Anatomy</a>
+  <a href="history.html">history</a>
+  <a href="geography.html">geography</a>
+  <a href="future.html">future</a>>
+       
+</div>
+<body>
+    <div class="format">
+    <h1>Life Cycle</h1>
+    <p>Giraffes begen their lives as eggs, it is currently unknown where exactly these eggs come from, but it has been theorized that round stones, spontaneously 
+        transmogrify into them during harvest moons. After roughly 14 monthes the eggs hatch, revealing the furtive pupa. upon hatching these pupae emediatly bury themselves
+        in the surrounding soil, and feed off the minerals within for another 7 months. At this point giraffes emerge and shed there skin, finally becoming the lovable goliaths 
+        we all know. </p>
+<script type="text/javascript">
+  document.write(getImageTag());
+</script>
+        </div>
+</body>
+</html>
