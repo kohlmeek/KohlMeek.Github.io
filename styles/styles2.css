@@ -31,11 +31,11 @@ a{
 }
 
 a:link, a:visited {
-    color: darkslategray;
+    color: red;
 }
 
 a:hover {
-    color:slategray;
+    color:pink;
 }
 
 div.margin-left {
