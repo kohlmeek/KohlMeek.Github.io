@@ -19,7 +19,7 @@ var time2 = Math.abs(Seconds_from_T3_to_T4);
 </script>
     
     <style> 
-div {
+div.animation {
     width: 10px;
     height: 20px;
     position: relative;
@@ -35,8 +35,8 @@ div {
 @-webkit-keyframes example {
     0%   {background-color:black; }
     50%   {background-color:black; }
-    51%  {background-color:white;}
-    100%  {background-color:white;}
+    51%  {background-color:lawngreen;}
+    100%  {background-color:lawngreen;}
    
 }
 
@@ -44,9 +44,12 @@ div {
 @keyframes example {
    0%   {background-color:black; }
     50%   {background-color:black; }
-    51%  {background-color:white;}
-    100%  {background-color:white;}
+    51%  {background-color:lawngreen;}
+    100%  {background-color:lawngreen;}
    
+}
+        
+
 }
 </style>
 </head>
@@ -68,6 +71,42 @@ div {
     
     <p>AWAITING SHUTDOWN</p>
     
-    <div>   </div>
+    <div class="animation">   </div>
+    
+    <div>
+<button onclick="myFunction()">SHUTDOWN</button>
+
+<p id="demo"></p>
+
+<script>
+    var shutdown=false;
+function myFunction() {
+    var text;
+    var Shutdown = prompt("Shutdown? y/n", "y");
+    switch(Shutdown) {
+        case "yes":
+        text = "THANK YOU";
+            var shutdown=true;
+        break;
+    case "y":
+        text = "THANK YOU";
+             var shutdown=true;
+        break;
+        case "1":
+        text = "THANK YOU";
+             var shutdown=true;
+        break;
+        default:
+        text = "AWAITING SHUTDOWN";
+    }
+    document.getElementById("demo").innerHTML = text;
+    
+    if (shutdown=true){
+        document.write("Thank you");
+        
+    }
+}
+</script>
+</div>
 </body>
 </html>
